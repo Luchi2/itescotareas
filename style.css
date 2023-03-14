@@ -26,6 +26,9 @@ a{
 }
 
 .header__container{height: 10vh;}
+.home__container, .acess__container{
+    height: 90vh;
+}
 .header__container--login{background: var(--colorBg);}
 .header__img{
     display: flex;
@@ -50,8 +53,8 @@ a{
     right: 0;
 }
 
+
 .acess__container{
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +82,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 15vw;
 }
 
 .grid__column--two {
@@ -91,3 +95,12 @@ a{
     font-size: 1.5em;
     color: var(--colorOne);
 }.input__check{}
+
+.home__container{}
+.home__banner {
+    width: 80vw;
+    height: 80vh;
+    object-fit: contain;
+    display: flex;
+    margin: 0 auto;
+}
