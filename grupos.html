@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tareas Itesco</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header__container header__container--adentro">
+		<img src="img/logo.png" class="header__img">
+		<nav class="navbar__container">
+			<a href="maestros.html" class="navbar__item">Maestros</a>
+			<a href="grupos.html" class="navbar__item">Grupo</a>
+			<a href="materiaAgregar.html" class="navbar__item active">Materia</a>
+			<a href="home.html" class="navbar__item">Perfil</a>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="materia__container grid__column--two">
+			<h1 class="title">Grupos</h1>
+			<article class="grid__column--four">
+				<div class="materia__square" style="--status:var(--colorTwo);">
+			  		<p>Nombre de la materia</p>
+			  		<b>Clave</b>
+			  	</div>
+			</article>
+			<article class="materias__resumen">
+				<form class="form__container">
+					<h1 class="form__title">Crear Grupo</h1>
+					<select name="select" class="form__select">
+					  <option value="value1" selected="">Semestre</option>
+					  <option value="value2" >Value 2</option>
+					  <option value="value3">Value 3</option>
+					</select>
+					<select name="select" class="form__select">
+					  <option value="value1" selected="">Grupo</option>
+					  <option value="value2" >Value 2</option>
+					  <option value="value3">Value 3</option>
+					</select>
+					<select name="select" class="form__select">
+					  <option value="value1" selected="">Materia</option>
+					  <option value="value2" >Value 2</option>
+					  <option value="value3">Value 3</option>
+					</select>
+					<input type="text" name="" class="form__text" placeholder="Cupo">
+					
+					<input type="button" name="" class="btn__three" value="Crear">
+				</form>
+			</article>
+		</section>
+	</main>
+</body>
+</html>

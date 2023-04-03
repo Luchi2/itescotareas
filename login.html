@@ -14,9 +14,19 @@
 		<section class="acess__container">
 			<form class="acess__form">
 				<input type="text" name="Matricula" placeholder="Matricula" class="input__text">
+				<input type="text" name="nombre" placeholder="Nombre" class="input__text">
 				<input type="text" name="Password" placeholder="Password" class="input__text">
-				
-				<a href="inicio.html" class="btn__principal">Entrar</a>
+				<div class="grid__column--two">
+					<label class="input__container">
+						<input type="radio" value="Docente" name="tipo" class="input__check">
+						Docente
+					</label>
+					<label class="input__container">
+						<input type="radio" value="Alumno" name="tipo" class="input__check">
+						Alumno
+					</label>
+				</div>
+				<a href="inicio.html" class="btn__principal">Registrarse</a>
 			</form>
 		</section>
 	</main>
