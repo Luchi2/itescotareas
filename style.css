@@ -69,6 +69,7 @@ summary{
 }
 .main{
     background: var(--colorBg);
+    position: relative;
 }
 
 .main:before {
@@ -80,8 +81,8 @@ summary{
 .main:after {
     content: url(img/arrow.png);
     display: block;
-    position: fixed;
-    bottom: -13px;
+    position: absolute;
+    bottom: 0;
     right: 0;
 }
 

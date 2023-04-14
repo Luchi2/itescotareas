@@ -1,0 +1,137 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	*{
+		/* background: #ff00001c; */
+	}
+
+p.materias__text b {
+    font-size: 1em;
+}
+
+.grid__column--four {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin-block-end: 5vh;
+    gap: 5vw;
+}
+
+.btn__three {
+    width: 25vw;
+}
+
+.menu__item {
+    width: 45vw;
+}
+
+.grid__column--three {grid-template-columns: 1fr;}
+
+.btn__four {
+    margin-inline: 2vw;
+}
+
+.materias__contain p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.btn__container {
+    display: grid;
+}
+
+.grid__column--seventy {
+    margin-block-end: 1vh;
+}
+
+.materias__resumen {
+    width: 80vw;
+}
+
+.materia__homework {
+    margin-block-end: 5vh;
+}
+
+.materias__text {
+    display: grid;
+    background: #5aa1e361;
+}
+
+.grid__column--two {
+    grid-template-columns: 1fr;
+}
+
+.navbar__container {
+    gap: 5vw;
+}
+
+article.list__container h2 {
+    width: 100%;
+}
+
+.list__item {
+    width: auto;
+}
+
+.calendar__subtititle {
+    font-size: 1em;
+}
+
+.home__container, .acess__container, .calendar__container {
+    height: fit-content;
+    padding-inline: 4vw;
+    min-height: 87vh;
+}
+
+.calendar__container {
+    grid-template-columns: 1fr;
+}
+
+.header__container--adentro .header__img {
+    width: 15vw;
+}
+
+.navbar__item {
+    font-size: 1.5em;
+}
+
+.acess__form {
+    width: 70vw;
+}
+
+
+
+.main::before {
+    /* background: red; */
+    content: '';
+}
+
+.main::after {
+    content: '';
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	*{
+		background: green;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	*{
+		background: blue;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	*{
+		background: yellow;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	*{
+		background: purple;
+	}
+}
