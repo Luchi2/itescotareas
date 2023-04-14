@@ -4,7 +4,15 @@
 		/* background: #ff00001c; */
 	}
 
-p.materias__text b {
+.btn__principal {
+    width: 35vw;
+}
+
+.home__banner {
+    height: 75vh;
+}
+
+.materias__text b {
     font-size: 1em;
 }
 
@@ -56,6 +64,7 @@ p.materias__text b {
 
 .grid__column--two {
     grid-template-columns: 1fr;
+    gap:2vh;
 }
 
 .navbar__container {
@@ -107,4 +116,3 @@ article.list__container h2 {
     content: '';
 }
 }
-
